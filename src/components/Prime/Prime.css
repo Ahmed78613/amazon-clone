@@ -1,0 +1,72 @@
+.prime {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: white;
+	width: 100vw;
+}
+
+.prime__container {
+	margin: 0 auto;
+	width: 100%;
+	max-width: 1600px;
+	overflow: hidden;
+	padding-bottom: 40px;
+}
+
+.prime__details {
+	display: flex;
+	width: 100%;
+	background-color: rgb(234, 237, 237);
+}
+
+.prime__section {
+	display: flex;
+	flex-direction: column;
+	flex: 1;
+	padding: 20px 10px 40px;
+	border: 1px solid lightgray;
+}
+
+.prime__heading {
+	font-size: 14px;
+	color: #464646;
+	margin-bottom: 6px;
+}
+
+.prime__subheading {
+	font-size: 24px;
+	color: #383838;
+}
+
+.prime__banner {
+	text-align: center;
+	background-image: linear-gradient(rgb(12, 44, 83), rgb(43, 123, 214));
+	width: 100%;
+	padding: 1.2rem 0;
+	margin: 14px auto;
+}
+
+.prime__banner h3,
+.prime__banner p {
+	margin-bottom: 8px;
+	font-size: 20px;
+	color: white;
+	text-shadow: 0 0 6px rgb(0, 0, 0);
+}
+
+button {
+	background-color: #f0c14b;
+	border: 1px solid;
+	margin-top: 10px;
+	border-color: #a88734 #9c7e32 #846a29;
+	color: black;
+	cursor: pointer;
+	padding: 10px 16px;
+	border-radius: 30px;
+}
+
+.prime__image {
+	width: 100%;
+}
